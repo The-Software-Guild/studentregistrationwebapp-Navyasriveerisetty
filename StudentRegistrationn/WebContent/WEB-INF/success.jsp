@@ -10,7 +10,7 @@
 	<% 
 	String name = request.getParameter("name");
 	String age = request.getParameter("age");
-	String mobile = request.getParameter("mobile");
+	String mobile = request.getParameter("mobileno");
 	String address = request.getParameter("address");
 	%>
 	
@@ -19,7 +19,7 @@
 	
 	<h3>Name is: <%=name %> </h3>
 	<h3>Age is: <%=age %> </h3>
-	<h3>MobileNo is: <%=mobile %> </h3>
+	<h3>MobileNo is: <%=mobileno %> </h3>
 	<h3>Address is: <%=address %> </h3>
 </body>
 </html>
